@@ -66,10 +66,18 @@
 		<Unit filename="libs/status/headers/book_status_category.h" />
 		<Unit filename="libs/status/headers/book_status_industrial.h" />
 		<Unit filename="libs/status/headers/status_compsys.h" />
-
 		<Unit filename="libs/status/headers/status_industrial.h" />
 		<Unit filename="libs/status/headers/status_programming.h" />
 		<Unit filename="libs/status/status_book_category.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/status/status_compsys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/status/status_industrial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/status/status_programming.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="main.c">
