@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Book Inventory" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Book Inventory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Book Inventory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="libs/add/add_book_category.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/add/addcompsys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/add/addindustrial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/add/addprogramming.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/add/headers/add_book_category.h" />
+		<Unit filename="libs/add/headers/addcompsys.h" />
+		<Unit filename="libs/add/headers/addindustrial.h" />
+		<Unit filename="libs/add/headers/addprogramming.h" />
+		<Unit filename="libs/display/display_book_category.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/display/display_compsys.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/display/display_industrial.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/display/display_programming.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libs/display/headers/display_book_category.h" />
+		<Unit filename="libs/display/headers/display_compsys.h" />
+		<Unit filename="libs/display/headers/display_industrial.h" />
+		<Unit filename="libs/display/headers/display_programming.h" />
+		<Unit filename="libs/status/headers/book_status_category.h" />
+		<Unit filename="libs/status/headers/book_status_industrial.h" />
+		<Unit filename="libs/status/headers/status_compsys.h" />
+
+		<Unit filename="libs/status/headers/status_industrial.h" />
+		<Unit filename="libs/status/headers/status_programming.h" />
+		<Unit filename="libs/status/status_book_category.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
