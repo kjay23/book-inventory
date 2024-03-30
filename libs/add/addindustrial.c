@@ -28,12 +28,25 @@ void add_industrial() {
     printf("Price: ");
     scanf("%f", &price);
 
+// dayon mugawas ang output
+    printf("Book Name: %s\n", book_name);
 
+    printf("Author: %s\n", author);
 
-    printf("\n\nBOOK ADDED.");
-    sleep(3);
-    clear_screen();
+    printf("Pages: %d\n", pages);
 
-    add_book_category();
+    printf("Price: %.2f\n", price);
+
+    printf("\n\nBOOK ADDED");
+    sleep(1);
+
+            char returnToMain;
+    printf("\n\nReturn to main menu? (Y/N): ");
+    scanf(" %c", &returnToMain);
+
+    if (returnToMain == 'Y' || returnToMain == 'y') {
+        clear_screen();
+        main();
 }
 
+}

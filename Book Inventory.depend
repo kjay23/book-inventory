@@ -144,3 +144,70 @@
 	<unistd.h>
 	<Windows.h>
 
+1711339755 source:c:\users\jay\desktop\book-inventory\libs\add\add_book_category.c
+	<stdio.h>
+	<unistd.h>
+
+1711813455 source:c:\users\jay\desktop\book-inventory\libs\add\addcompsys.c
+	<stdio.h>
+	<unistd.h>
+	<Windows.h>
+
+1711813455 source:c:\users\jay\desktop\book-inventory\libs\add\addindustrial.c
+	<stdio.h>
+	<unistd.h>
+	<Windows.h>
+
+1711813455 source:c:\users\jay\desktop\book-inventory\libs\add\addprogramming.c
+	<stdio.h>
+	<unistd.h>
+	<Windows.h>
+
+1711339755 source:c:\users\jay\desktop\book-inventory\libs\display\display_book_category.c
+	<stdio.h>
+	<unistd.h>
+
+1711339755 source:c:\users\jay\desktop\book-inventory\libs\display\display_compsys.c
+	<stdio.h>
+	<unistd.h>
+	<Windows.h>
+
+1711339755 source:c:\users\jay\desktop\book-inventory\libs\display\display_industrial.c
+	<stdio.h>
+	<unistd.h>
+	<Windows.h>
+
+1711339755 source:c:\users\jay\desktop\book-inventory\libs\display\display_programming.c
+	<stdio.h>
+	<unistd.h>
+	"headers/display_programming.h"
+	<Windows.h>
+
+1711339755 c:\users\jay\desktop\book-inventory\libs\display\headers\display_programming.h
+
+1711339755 source:c:\users\jay\desktop\book-inventory\libs\status\status_book_category.c
+	<stdio.h>
+	<unistd.h>
+
+1711339755 source:c:\users\jay\desktop\book-inventory\libs\status\status_compsys.c
+	<stdio.h>
+	<unistd.h>
+	<Windows.h>
+
+1711339755 source:c:\users\jay\desktop\book-inventory\libs\status\status_industrial.c
+	<stdio.h>
+	<unistd.h>
+	<Windows.h>
+
+1711339755 source:c:\users\jay\desktop\book-inventory\libs\status\status_programming.c
+	<stdio.h>
+	<unistd.h>
+	<Windows.h>
+
+1711339755 source:c:\users\jay\desktop\book-inventory\main.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<string.h>
+	<Windows.h>
+

@@ -28,11 +28,25 @@ void add_compsys() {
     printf("Price: ");
     scanf("%f", &price);
 
+// dayon mugawas ang output
+    printf("Book Name: %s\n", book_name);
+
+    printf("Author: %s\n", author);
+
+    printf("Pages: %d\n", pages);
+
+    printf("Price: %.2f\n", price);
 
 
-    printf("\n\nBOOK ADDED.");
-    sleep(3);
-    clear_screen();
+    printf("\n\nBOOK ADDED");
+    sleep(1);
 
-    add_book_category();
+            char returnToMain;
+    printf("\n\nReturn to main menu? (Y/N): ");
+    scanf(" %c", &returnToMain);
+
+    if (returnToMain == 'Y' || returnToMain == 'y') {
+        clear_screen();
+        main();
+}
 }
