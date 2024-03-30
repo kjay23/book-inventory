@@ -102,9 +102,27 @@ void add_programming() {
 
     printf("\n\nBOOK ADDED.");
     sleep(3);
-    CLEAR_SCREEN();
+// dayon mugawas ang output
+    printf("Book Name: %s\n", book_name);
 
-    add_book_category();
+    printf("Author: %s\n", author);
+
+    printf("Pages: %d\n", pages);
+
+    printf("Price: %.2f\n", price);
+
+    printf("\n\nBOOK ADDED");
+    sleep(1);
+
+
+        char returnToMain;
+    printf("\n\nReturn to main menu? (Y/N): ");
+    scanf(" %c", &returnToMain);
+
+    if (returnToMain == 'Y' || returnToMain == 'y') {
+        CLEAR_SCREEN();
+        main();
+    }
 }
 
 void add_industrial() {
@@ -129,9 +147,27 @@ void add_industrial() {
 
     printf("\n\nBOOK ADDED.");
     sleep(3);
-    CLEAR_SCREEN();
+// dayon mugawas ang output
+    printf("Book Name: %s\n", book_name);
 
-    add_book_category();
+    printf("Author: %s\n", author);
+
+    printf("Pages: %d\n", pages);
+
+    printf("Price: %.2f\n", price);
+
+    printf("\n\nBOOK ADDED");
+    sleep(1);
+
+
+        char returnToMain;
+    printf("\n\nReturn to main menu? (Y/N): ");
+    scanf(" %c", &returnToMain);
+
+    if (returnToMain == 'Y' || returnToMain == 'y') {
+        CLEAR_SCREEN();
+        main();
+    }
 }
 
 void add_compsys() {
@@ -156,9 +192,27 @@ void add_compsys() {
 
     printf("\n\nBOOK ADDED.");
     sleep(3);
-    CLEAR_SCREEN();
+// dayon mugawas ang output
+    printf("Book Name: %s\n", book_name);
 
-    add_book_category();
+    printf("Author: %s\n", author);
+
+    printf("Pages: %d\n", pages);
+
+    printf("Price: %.2f\n", price);
+
+    printf("\n\nBOOK ADDED");
+    sleep(1);
+
+
+        char returnToMain;
+    printf("\n\nReturn to main menu? (Y/N): ");
+    scanf(" %c", &returnToMain);
+
+    if (returnToMain == 'Y' || returnToMain == 'y') {
+        CLEAR_SCREEN();
+        main();
+    }
 }
 
 void display_book_category() {
