@@ -108,7 +108,8 @@ void add_programming() {
     printf("Price: ");
     scanf("%f", &price);
 
-    sleep(3);
+    sleep(1);
+    CLEAR_SCREEN();
     printf("\n\nResult:\n\n");
 
 // dayon mugawas ang output
@@ -154,8 +155,11 @@ void add_industrial() {
     printf("Price: ");
     scanf("%f", &price);
 
-    printf("\n\nBOOK ADDED.");
-    sleep(3);
+    sleep(1);
+    CLEAR_SCREEN();
+    printf("\n\nResult:\n\n");
+
+
 // dayon mugawas ang output
     printf("Book Name: %s\n", book_name);
 
@@ -199,8 +203,11 @@ void add_compsys() {
     printf("Price: ");
     scanf("%f", &price);
 
-    printf("\n\nBOOK ADDED.");
-    sleep(3);
+    sleep(1);
+    CLEAR_SCREEN();
+    printf("\n\nResult:\n\n");
+
+
 // dayon mugawas ang output
     printf("Book Name: %s\n", book_name);
 
@@ -224,6 +231,7 @@ void add_compsys() {
     }
 }
 
+// case 2, category sa 2. DISPLAY BOOK INFORMATION
 void display_book_category() {
     int category_choice;
 
@@ -289,7 +297,7 @@ void display_programming() {
         }
         printf("\n");
     }
-
+    sleep(1);
     return display_book_category();
     CLEAR_SCREEN();
 }
@@ -325,7 +333,7 @@ void display_industrial() {
         }
         printf("\n");
     }
-
+    sleep(1);
     return display_book_category();
     CLEAR_SCREEN();
 }
@@ -361,11 +369,13 @@ void display_compsys() {
         }
         printf("\n");
     }
-
+    sleep(1);
     return display_book_category();
     CLEAR_SCREEN();
 }
 
+
+// category sa 3. BOOK STATUS
 void book_status_category() {
     int category_choice;
 
@@ -428,7 +438,7 @@ void status_programming() {
         }
         printf("\n");
     }
-
+    sleep(1);
     return book_status_category();
     CLEAR_SCREEN();
 }
@@ -461,7 +471,7 @@ void status_industrial() {
         }
         printf("\n");
     }
-
+    sleep(1);
     return book_status_category();
     CLEAR_SCREEN();
 }
@@ -494,7 +504,7 @@ void status_compsys() {
         }
         printf("\n");
     }
-
+    sleep(1);
     return book_status_category();
     CLEAR_SCREEN();
 }
