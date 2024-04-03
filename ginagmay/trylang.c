@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>
-
+// mga pre-processors needed
 
 #define LEFT(str, w) \
     ({int m = w + strlen(str); m % 2 ? (m + 1) / 2 : m / 2;})
@@ -26,13 +26,16 @@
     PRINTF_CENTER(40, "[", fmt  , "]\n", __VA_ARGS__)
     //para na ma center ang texts, duh
 
+
 #ifdef _WIN32
 #include <Windows.h>
 #define CLEAR_SCREEN() system("cls")
 #else
 #define CLEAR_SCREEN() printf("\033[H\033[J")
 #endif
+// to clear screen kada balik main
 
+// void functions
 void add_book_category();
 void add_programming();
 void add_industrial();
@@ -46,6 +49,8 @@ void status_programming();
 void status_industrial();
 void status_compsys();
 
+
+// category sa 1. ADD BOOK
 void add_book_category() {
     int category_choice;
 
@@ -80,6 +85,9 @@ void add_book_category() {
     }
 }
 
+
+// case 1
+
 void add_programming() {
     char book_name[100];
     char author[100];
@@ -100,8 +108,9 @@ void add_programming() {
     printf("Price: ");
     scanf("%f", &price);
 
-    printf("\n\nBOOK ADDED.");
     sleep(3);
+    printf("\n\nResult:\n\n");
+
 // dayon mugawas ang output
     printf("Book Name: %s\n", book_name);
 
@@ -114,7 +123,7 @@ void add_programming() {
     printf("\n\nBOOK ADDED");
     sleep(1);
 
-
+// diri nga part mangutana mubalik ba sa main or mu exit
         char returnToMain;
     printf("\n\nReturn to main menu? (Y/N): ");
     scanf(" %c", &returnToMain);
