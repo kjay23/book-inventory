@@ -85,22 +85,25 @@ void add_book_category() {
     }
 }
 
-
+#define MAX_LENGTH 100
 // case 1
 
 void add_programming() {
-    char book_name[100];
-    char author[100];
+    char book_name[MAX_LENGTH];
+    char author[MAX_LENGTH];
     int pages;
     float price;
 
     printf("\n\nEnter the details of the book:\n");
 
     printf("Book Name: ");
-    scanf("%s", book_name);
+    getchar();
+    fgets(book_name, MAX_LENGTH, stdin);
+    book_name[strcspn(book_name, "\n")] = 0; // Remove newline character
 
     printf("Author: ");
-    scanf("%s", author);
+    fgets(author, MAX_LENGTH, stdin);
+    author[strcspn(author, "\n")] = 0;
 
     printf("Pages: ");
     scanf("%d", &pages);
