@@ -41,13 +41,9 @@ void clear_screen() {
 
 int main(int argc, char const *argv[]) {
     printf("%*s%*s\n\n", STR_CENTER("--- LIBRARY MANAGEMENT SYSTEM ---", 100));
-    printf("[%*s%*s]\n", STR_CENTER("MEMBERS OF THE GROUP", 100));
-    printf("[%*s%*s]\n", STR_CENTER("1. KLEVIN JAY A. PORIO", 100));
-    printf("[%*s%*s]\n", STR_CENTER("2. SHERLYN KATE C. YPO", 100));
-    printf("[%*s%*s]\n", STR_CENTER("  3. JHUDIEL LEDENIO      ", 100));
-    printf("[%*s%*s]\n", STR_CENTER("    4. MARIA CLARENCE F. CASIPE", 100));
-    printf("[%*s%*s]\n", STR_CENTER("5. SHERIFER W. ARNADO  ", 100));
-    printf("[%*s%*s]\n", STR_CENTER("6. JANJAN A. EGOC      ", 100));
+    printf("[%*s%*s]\n", STR_CENTER("CREATED BY:", 100));
+    printf("[%*s%*s]\n", STR_CENTER("LZMA", 100));
+
 
     int choice;
     printf("[%*s%*s]\n", STR_CENTER("=========================================================================", 100));
